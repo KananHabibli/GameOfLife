@@ -1,0 +1,3 @@
+/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/rebuild_cache.dir
+/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/game_of_life.dir
+/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/edit_cache.dir

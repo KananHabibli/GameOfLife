@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kanan/Desktop/Development Techniques/Game of Life/generation.c
+generation.h
+/home/kanan/Desktop/Development Techniques/Game of Life/generation.h
+
+/home/kanan/Desktop/Development Techniques/Game of Life/generation.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/kanan/Desktop/Development Techniques/Game of Life/main.c
+generation.c
+/home/kanan/Desktop/Development Techniques/Game of Life/generation.c
+
