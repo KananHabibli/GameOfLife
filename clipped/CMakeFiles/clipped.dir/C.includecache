@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kanan/Desktop/Development Techniques/Game of Life/clipped/clipped.c
+clipped.h
+/home/kanan/Desktop/Development Techniques/Game of Life/clipped/clipped.h
+
+/home/kanan/Desktop/Development Techniques/Game of Life/clipped/clipped.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+

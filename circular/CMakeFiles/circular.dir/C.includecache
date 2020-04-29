@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kanan/Desktop/Development Techniques/Game of Life/circular/circular.c
+circular.h
+/home/kanan/Desktop/Development Techniques/Game of Life/circular/circular.h
+
+/home/kanan/Desktop/Development Techniques/Game of Life/circular/circular.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+

@@ -6,11 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/kanan/Desktop/Development Techniques/Game of Life/generation.c
-generation.h
-/home/kanan/Desktop/Development Techniques/Game of Life/generation.h
+/home/kanan/Desktop/Development Techniques/Game of Life/ansi/ansi.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
 
-/home/kanan/Desktop/Development Techniques/Game of Life/generation.h
+/home/kanan/Desktop/Development Techniques/Game of Life/circular/circular.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/kanan/Desktop/Development Techniques/Game of Life/clipped/clipped.h
 stdio.h
 -
 stdlib.h
@@ -19,6 +31,10 @@ unistd.h
 -
 
 /home/kanan/Desktop/Development Techniques/Game of Life/main.c
-generation.c
-/home/kanan/Desktop/Development Techniques/Game of Life/generation.c
+clipped/clipped.h
+/home/kanan/Desktop/Development Techniques/Game of Life/clipped/clipped.h
+circular/circular.h
+/home/kanan/Desktop/Development Techniques/Game of Life/circular/circular.h
+ansi/ansi.h
+/home/kanan/Desktop/Development Techniques/Game of Life/ansi/ansi.h
 

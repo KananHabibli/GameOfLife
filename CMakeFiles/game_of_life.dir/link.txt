@@ -1,1 +1,1 @@
-/usr/bin/cc    CMakeFiles/game_of_life.dir/main.c.o  -o game_of_life 
+/usr/bin/cc    CMakeFiles/game_of_life.dir/main.c.o CMakeFiles/game_of_life.dir/ansi/ansi.c.o CMakeFiles/game_of_life.dir/clipped/clipped.c.o CMakeFiles/game_of_life.dir/circular/circular.c.o  -o game_of_life  ansi/libansi.a clipped/libclipped.a circular/libcircular.a -lm 
