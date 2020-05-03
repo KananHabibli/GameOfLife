@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsdl.a  CMakeFiles/sdl.dir/sdl.c.o
+/usr/bin/ranlib libsdl.a

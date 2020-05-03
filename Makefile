@@ -68,10 +68,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/kanan/Desktop/Development Techniques/Game of Life"
+CMAKE_SOURCE_DIR = "/home/kanan/Desktop/Development Techniques/GameOfLife"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/kanan/Desktop/Development Techniques/Game of Life"
+CMAKE_BINARY_DIR = "/home/kanan/Desktop/Development Techniques/GameOfLife"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,9 +146,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles" "/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles" "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -227,6 +227,19 @@ circular: cmake_check_build_system
 circular/fast:
 	$(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/build
 .PHONY : circular/fast
+
+#=============================================================================
+# Target rules for targets named sdl
+
+# Build rule for target.
+sdl: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl
+.PHONY : sdl
+
+# fast build rule for target.
+sdl/fast:
+	$(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/build
+.PHONY : sdl/fast
 
 ansi/ansi.o: ansi/ansi.c.o
 
@@ -336,6 +349,33 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_of_life.dir/build.make CMakeFiles/game_of_life.dir/main.c.s
 .PHONY : main.c.s
 
+sdl/sdl.o: sdl/sdl.c.o
+
+.PHONY : sdl/sdl.o
+
+# target to build an object file
+sdl/sdl.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_of_life.dir/build.make CMakeFiles/game_of_life.dir/sdl/sdl.c.o
+.PHONY : sdl/sdl.c.o
+
+sdl/sdl.i: sdl/sdl.c.i
+
+.PHONY : sdl/sdl.i
+
+# target to preprocess a source file
+sdl/sdl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_of_life.dir/build.make CMakeFiles/game_of_life.dir/sdl/sdl.c.i
+.PHONY : sdl/sdl.c.i
+
+sdl/sdl.s: sdl/sdl.c.s
+
+.PHONY : sdl/sdl.s
+
+# target to generate assembly for a file
+sdl/sdl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_of_life.dir/build.make CMakeFiles/game_of_life.dir/sdl/sdl.c.s
+.PHONY : sdl/sdl.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -352,6 +392,7 @@ help:
 	@echo "... circular"
 	@echo "... clipped"
 	@echo "... game_of_life"
+	@echo "... sdl"
 	@echo "... ansi/ansi.o"
 	@echo "... ansi/ansi.i"
 	@echo "... ansi/ansi.s"
@@ -364,6 +405,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... sdl/sdl.o"
+	@echo "... sdl/sdl.i"
+	@echo "... sdl/sdl.s"
 .PHONY : help
 
 

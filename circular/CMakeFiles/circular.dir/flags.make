@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DUSING_LIB=""
 
-C_INCLUDES = -I"/home/kanan/Desktop/Development Techniques/Game of Life/circular" 
+C_INCLUDES = -I"/home/kanan/Desktop/Development Techniques/GameOfLife/circular" 
 

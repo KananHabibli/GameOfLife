@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DUSING_LIB=""
 
-C_INCLUDES = -I"/home/kanan/Desktop/Development Techniques/Game of Life/ansi" -I"/home/kanan/Desktop/Development Techniques/Game of Life/clipped" -I"/home/kanan/Desktop/Development Techniques/Game of Life/circular" 
+C_INCLUDES = -I"/home/kanan/Desktop/Development Techniques/GameOfLife/ansi" -I"/home/kanan/Desktop/Development Techniques/GameOfLife/clipped" -I"/home/kanan/Desktop/Development Techniques/GameOfLife/circular" -I"/home/kanan/Desktop/Development Techniques/GameOfLife/sdl" -isystem /usr/local/include/SDL2 
 

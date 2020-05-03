@@ -1,5 +1,7 @@
 #include "circular.h"
 
+
+// Creating next generation of the cells in circular version
 int** nextGenerationcircular(int** grid, int M, int N) 
 { 
      int **future;
@@ -35,9 +37,6 @@ int** nextGenerationcircular(int** grid, int M, int N)
 
             // Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
             else future[l][m] = grid[l][m]; 
-
-
-            // printf("%d and %d\n", l,m);
         } 
     }
 

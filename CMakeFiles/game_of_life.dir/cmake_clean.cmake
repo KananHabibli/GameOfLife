@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/game_of_life.dir/circular/circular.c.o"
   "CMakeFiles/game_of_life.dir/clipped/clipped.c.o"
   "CMakeFiles/game_of_life.dir/main.c.o"
+  "CMakeFiles/game_of_life.dir/sdl/sdl.c.o"
   "game_of_life"
   "game_of_life.pdb"
 )

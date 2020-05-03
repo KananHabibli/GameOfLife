@@ -1,28 +1,35 @@
-/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/install/strip.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/edit_cache.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/game_of_life.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/install.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/rebuild_cache.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/list_install_components.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/CMakeFiles/install/local.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/ansi/CMakeFiles/install/strip.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/ansi/CMakeFiles/edit_cache.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/ansi/CMakeFiles/ansi.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/ansi/CMakeFiles/rebuild_cache.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/ansi/CMakeFiles/list_install_components.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/ansi/CMakeFiles/install/local.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/ansi/CMakeFiles/install.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/clipped/CMakeFiles/install/strip.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/clipped/CMakeFiles/edit_cache.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/clipped/CMakeFiles/clipped.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/clipped/CMakeFiles/rebuild_cache.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/clipped/CMakeFiles/list_install_components.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/clipped/CMakeFiles/install/local.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/clipped/CMakeFiles/install.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/circular/CMakeFiles/install/strip.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/circular/CMakeFiles/edit_cache.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/circular/CMakeFiles/circular.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/circular/CMakeFiles/rebuild_cache.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/circular/CMakeFiles/list_install_components.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/circular/CMakeFiles/install/local.dir
-/home/kanan/Desktop/Development Techniques/Game of Life/circular/CMakeFiles/install.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles/install/strip.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles/edit_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles/game_of_life.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles/install.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles/rebuild_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles/list_install_components.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles/install/local.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/CMakeFiles/install/strip.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/CMakeFiles/edit_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/CMakeFiles/ansi.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/CMakeFiles/rebuild_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/CMakeFiles/list_install_components.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/CMakeFiles/install/local.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/CMakeFiles/install.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/CMakeFiles/install/strip.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/CMakeFiles/edit_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/CMakeFiles/clipped.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/CMakeFiles/rebuild_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/CMakeFiles/list_install_components.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/CMakeFiles/install/local.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/CMakeFiles/install.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/circular/CMakeFiles/install/strip.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/circular/CMakeFiles/edit_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/circular/CMakeFiles/circular.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/circular/CMakeFiles/rebuild_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/circular/CMakeFiles/list_install_components.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/circular/CMakeFiles/install/local.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/circular/CMakeFiles/install.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/CMakeFiles/install/strip.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/CMakeFiles/edit_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/CMakeFiles/sdl.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/CMakeFiles/rebuild_cache.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/CMakeFiles/list_install_components.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/CMakeFiles/install/local.dir
+/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/CMakeFiles/install.dir

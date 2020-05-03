@@ -1,10 +1,17 @@
 #include "clipped.h"
 
 
-
+/** Creating next generation of the cells in clipped version */
+/** Creating next generation of the cells in clipped version...
+    @param grid first parameter
+    @param M second parameter
+    @param N second parameter
+    @return next generaion return value
+*/
 int** nextGeneration(int** grid, int M, int N) 
 { 
      int **future;
+    // allocating next generation's array
     future = malloc(sizeof(int*) * M);
      
     for(int i = 0; i < N; i++) {
