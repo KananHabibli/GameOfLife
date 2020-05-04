@@ -1,0 +1,35 @@
+\hypertarget{main_8c}{}\doxysection{main.\+c File Reference}
+\label{main_8c}\index{main.c@{main.c}}
+{\ttfamily \#include \char`\"{}clipped.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}circular.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}ansi.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}sdl.\+h\char`\"{}}\newline
+Include dependency graph for main.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8c_acdef7a1fd863a6d3770c1268cb06add3}{main}} ()
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{main_8c_acdef7a1fd863a6d3770c1268cb06add3}\label{main_8c_acdef7a1fd863a6d3770c1268cb06add3}} 
+\index{main.c@{main.c}!main@{main}}
+\index{main@{main}!main.c@{main.c}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily void main (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+First, the program will get the mode input to create required mode of the game ~\newline
+
+
+\begin{DoxyWarning}{Warning}
+Acceptable mode inputs are\+: 1, 2, 3, 4
+\end{DoxyWarning}
+If user chooses the mode 1, the program will create the generation with ansi in clipped version
+
+If user chooses the mode 2, the program will create the generation with ansi in circular version
+
+If user chooses the mode 3, the program will create the generation using S\+D\+L2 in circular version
+
+If user chooses the mode 4, the program will create the generation using S\+D\+L2 in clipped version

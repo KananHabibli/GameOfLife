@@ -1,12 +1,11 @@
 #include "clipped.h"
 
 
-/** Creating next generation of the cells in clipped version */
-/** Creating next generation of the cells in clipped version...
-    @param grid first parameter
-    @param M second parameter
-    @param N second parameter
-    @return next generaion return value
+/**  @brief This function creates the next generation of the cells in clipped version (as in there are borders all around)
+*    @param grid  current generation array
+*    @param M column
+*    @param N row
+*    @return next generation array
 */
 int** nextGeneration(int** grid, int M, int N) 
 { 
@@ -34,17 +33,17 @@ int** nextGeneration(int** grid, int M, int N)
             // Excluding the cell itself 
             aliveNeighbours -= grid[l][m];
 
-            // Any live cell with fewer than two live neighbors dies, as if caused by under population.
+            /** @brief Any live cell with fewer than two live neighbors dies, as if caused by under population. */
             if ((grid[l][m] == 1) && (aliveNeighbours < 2)) future[l][m] = 0; 
 
-            // Any live cell with two or three live neighbors lives on to the next generation.
+            /** @brief Any live cell with two or three live neighbors lives on to the next generation. */
             else if ((grid[l][m] == 1) && (aliveNeighbours > 3)) future[l][m] = 0; 
 
-            // Any live cell with more than three live neighbors dies, as if by overpopulation.
+            /** @brief Any live cell with more than three live neighbors dies, as if by overpopulation. */
             else if ((grid[l][m] == 0) && (aliveNeighbours == 3)) future[l][m] = 1; 
 
-            // Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
-            else future[l][m] = grid[l][m]; 
+            /** @brief Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction. */
+            else future[l][m] = grid[l][m];
         } 
     }
 

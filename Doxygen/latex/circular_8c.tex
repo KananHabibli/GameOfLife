@@ -1,0 +1,40 @@
+\hypertarget{circular_8c}{}\doxysection{circular/circular.c File Reference}
+\label{circular_8c}\index{circular/circular.c@{circular/circular.c}}
+{\ttfamily \#include \char`\"{}circular.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$$\ast$ \mbox{\hyperlink{circular_8c_af9ef2ca3463026065dd0ee96fa5ff257}{next\+Generationcircular}} (int $\ast$$\ast$grid, int M, int N)
+\begin{DoxyCompactList}\small\item\em This function creates the next generation of the cells in circular version (as in there are no borders) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{circular_8c_af9ef2ca3463026065dd0ee96fa5ff257}\label{circular_8c_af9ef2ca3463026065dd0ee96fa5ff257}} 
+\index{circular.c@{circular.c}!nextGenerationcircular@{nextGenerationcircular}}
+\index{nextGenerationcircular@{nextGenerationcircular}!circular.c@{circular.c}}
+\doxysubsubsection{\texorpdfstring{nextGenerationcircular()}{nextGenerationcircular()}}
+{\footnotesize\ttfamily int$\ast$$\ast$ next\+Generationcircular (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{grid,  }\item[{int}]{M,  }\item[{int}]{N }\end{DoxyParamCaption})}
+
+
+
+This function creates the next generation of the cells in circular version (as in there are no borders) 
+
+
+\begin{DoxyParams}{Parameters}
+{\em grid} & current generation array \\
+\hline
+{\em M} & column \\
+\hline
+{\em N} & row \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+next generation array 
+\end{DoxyReturn}
+Any live cell with fewer than two live neighbors dies, as if caused by under population.
+
+Any live cell with two or three live neighbors lives on to the next generation.
+
+Any live cell with more than three live neighbors dies, as if by overpopulation.
+
+Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.

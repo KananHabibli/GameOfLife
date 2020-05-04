@@ -9,7 +9,8 @@ void main()
 
     int mode;
     scanf("%d",&mode);
-    // Checking user mode input 
+    /** @brief First, the program will get the mode input to create required mode of the game  */
+    /** @warning Acceptable mode inputs are: 1, 2, 3, 4*/
     while(mode!=1 && mode!=2 && mode!=3 && mode!=4)
     {
         printf("WRONG INPUT, YOU HAVE TO WRITE 1 OR 2\n");
@@ -17,14 +18,12 @@ void main()
     }
     int M = 40, N = 40; 
     int **grid;
-    // Allocating memory for the current generation
     grid = malloc(sizeof(int*) * M);
      
     for(int i = 0; i < M; i++) {
         grid[i] = malloc(sizeof(int*) * N);
     }
 
-    // Creating the current generation
     for (int i = 0; i < M; i++)
     {
         for (int j = 0; j < N; j++)
@@ -72,7 +71,7 @@ void main()
     grid[9][14]=1;
 
 
-    /**Printing the generation with ansi in clipped version*/
+    /** @brief If user chooses the mode 1, the program will create the generation with ansi in clipped version */
     if(mode==1)
     {
     printf("\033[2J");
@@ -86,7 +85,7 @@ void main()
         usleep( 100000 );
         print_generation(grid,M,N);
     }
-}   // Printing the generation with ansi in circular version
+}   /** @brief If user chooses the mode 2, the program will create the generation with ansi in circular version */
     if(mode==2)
     {
     printf("\033[2J");
@@ -105,7 +104,7 @@ void main()
 int k=1;
 printf("GIVE THE THE PIXEL SIZE FOR ONE CELL\n");
 scanf("%d",&k);
-
+/** @brief If user chooses the mode 3, the program will create the generation using SDL2 in circular version */
 if(mode==3)
 {
         if (SDL_Init(SDL_INIT_VIDEO) != 0)
@@ -142,10 +141,7 @@ SDL_Window* window = SDL_CreateWindow("Life",
     SDL_Quit();
 }
 
-
-
-
-
+/** @brief If user chooses the mode 4, the program will create the generation using SDL2 in clipped version */
 if(mode==4)
 {
         if (SDL_Init(SDL_INIT_VIDEO) != 0)

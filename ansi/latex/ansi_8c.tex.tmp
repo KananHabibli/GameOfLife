@@ -1,0 +1,19 @@
+\hypertarget{ansi_8c}{}\doxysection{ansi.\+c File Reference}
+\label{ansi_8c}\index{ansi.c@{ansi.c}}
+{\ttfamily \#include \char`\"{}ansi.\+h\char`\"{}}\newline
+Include dependency graph for ansi.\+c\+:
+% FIG 0
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{ansi_8c_a556f67819c48094271b245f656a99905}{print\+\_\+generation}} (int $\ast$$\ast$now, int M, int N)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{ansi_8c_a556f67819c48094271b245f656a99905}\label{ansi_8c_a556f67819c48094271b245f656a99905}} 
+\index{ansi.c@{ansi.c}!print\_generation@{print\_generation}}
+\index{print\_generation@{print\_generation}!ansi.c@{ansi.c}}
+\doxysubsubsection{\texorpdfstring{print\_generation()}{print\_generation()}}
+{\footnotesize\ttfamily void print\+\_\+generation (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{now,  }\item[{int}]{M,  }\item[{int}]{N }\end{DoxyParamCaption})}
+

@@ -1,5 +1,12 @@
 #include "ansi.h"
-void print_generation(int ** now,int M,int N)
+/**
+ * @brief This function prints the generation that has been passed as a parameter using The ANSI/ISO C Specification Language (ACSL)
+ * @param grid  current generation array
+ * @param M     column of 2D array
+ * @param N     row of 2D array
+ * @return void
+ */
+void print_generation(int ** now, int M, int N)
 {
     // initscr();                                                                       //initializing the screen
     // start_color();                                                               //starting color mode
