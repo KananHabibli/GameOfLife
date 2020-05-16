@@ -6,45 +6,59 @@
 
 #IncludeRegexTransform: 
 
-/home/kanan/Desktop/Development Techniques/GameOfLife/circular/circular.c
-circular.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/circular/circular.h
-
-/home/kanan/Desktop/Development Techniques/GameOfLife/circular/circular.h
-stdio.h
--
-stdlib.h
--
-unistd.h
--
-
-/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/clipped.c
-clipped.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/clipped.h
-
-/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/clipped.h
-stdio.h
--
-stdlib.h
--
-unistd.h
--
-
-/home/kanan/Desktop/Development Techniques/GameOfLife/main.c
-clipped.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/clipped.h
-circular.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/circular.h
+/home/kanan/Desktop/GameOfLife-master/ansi/ansi.c
 ansi.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/ansi.h
-sdl.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/sdl.h
+/home/kanan/Desktop/GameOfLife-master/ansi/ansi.h
 
-/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/sdl.c
-sdl.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/sdl.h
+/home/kanan/Desktop/GameOfLife-master/ansi/ansi.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
 
-/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/sdl.h
+/home/kanan/Desktop/GameOfLife-master/circular/circular.c
+circular.h
+/home/kanan/Desktop/GameOfLife-master/circular/circular.h
+
+/home/kanan/Desktop/GameOfLife-master/circular/circular.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/kanan/Desktop/GameOfLife-master/clipped/clipped.c
+clipped.h
+/home/kanan/Desktop/GameOfLife-master/clipped/clipped.h
+
+/home/kanan/Desktop/GameOfLife-master/clipped/clipped.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/kanan/Desktop/GameOfLife-master/main.c
+clipped.h
+/home/kanan/Desktop/GameOfLife-master/clipped.h
+circular.h
+/home/kanan/Desktop/GameOfLife-master/circular.h
+ansi.h
+/home/kanan/Desktop/GameOfLife-master/ansi.h
+sdl.h
+/home/kanan/Desktop/GameOfLife-master/sdl.h
+math.h
+/home/kanan/Desktop/GameOfLife-master/math.h
+
+/home/kanan/Desktop/GameOfLife-master/sdl/sdl.c
+sdl.h
+/home/kanan/Desktop/GameOfLife-master/sdl/sdl.h
+
+/home/kanan/Desktop/GameOfLife-master/sdl/sdl.h
 windows.h
 -
 stdio.h

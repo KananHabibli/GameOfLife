@@ -68,10 +68,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/kanan/Desktop/Development Techniques/GameOfLife"
+CMAKE_SOURCE_DIR = /home/kanan/Desktop/GameOfLife-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/kanan/Desktop/Development Techniques/GameOfLife"
+CMAKE_BINARY_DIR = /home/kanan/Desktop/GameOfLife-master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,14 +146,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles" "/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/CMakeFiles/progress.marks"
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles" 0
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/GameOfLife-master/CMakeFiles /home/kanan/Desktop/GameOfLife-master/clipped/CMakeFiles/progress.marks
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/GameOfLife-master/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/clean
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/preinstall
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/preinstall
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 clipped/CMakeFiles/clipped.dir/rule:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/CMakeFiles/clipped.dir/rule
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/CMakeFiles/clipped.dir/rule
 .PHONY : clipped/CMakeFiles/clipped.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ clipped: clipped/CMakeFiles/clipped.dir/rule
 
 # fast build rule for target.
 clipped/fast:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/build
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/build
 .PHONY : clipped/fast
 
 clipped.o: clipped.c.o
@@ -197,7 +197,7 @@ clipped.o: clipped.c.o
 
 # target to build an object file
 clipped.c.o:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/clipped.c.o
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/clipped.c.o
 .PHONY : clipped.c.o
 
 clipped.i: clipped.c.i
@@ -206,7 +206,7 @@ clipped.i: clipped.c.i
 
 # target to preprocess a source file
 clipped.c.i:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/clipped.c.i
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/clipped.c.i
 .PHONY : clipped.c.i
 
 clipped.s: clipped.c.s
@@ -215,7 +215,7 @@ clipped.s: clipped.c.s
 
 # target to generate assembly for a file
 clipped.c.s:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/clipped.c.s
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/clipped.c.s
 .PHONY : clipped.c.s
 
 # Help Target
@@ -245,6 +245,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

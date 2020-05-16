@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DUSING_LIB=""
 
-C_INCLUDES = -I"/home/kanan/Desktop/Development Techniques/GameOfLife/sdl" -isystem /usr/local/include/SDL2 
+C_INCLUDES = -I/home/kanan/Desktop/GameOfLife-master/sdl -isystem /usr/local/include/SDL2 
 

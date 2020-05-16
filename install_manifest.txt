@@ -1,0 +1,9 @@
+/usr/local/lib/libansi.a
+/usr/local/include/ansi.h
+/usr/local/lib/libclipped.a
+/usr/local/include/clipped.h
+/usr/local/lib/libcircular.a
+/usr/local/include/circular.h
+/usr/local/lib/libsdl.a
+/usr/local/include/sdl.h
+/usr/local/bin/game_of_life

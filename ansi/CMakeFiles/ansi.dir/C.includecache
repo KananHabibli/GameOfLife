@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/ansi.c
+/home/kanan/Desktop/GameOfLife-master/ansi/ansi.c
 ansi.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/ansi.h
+/home/kanan/Desktop/GameOfLife-master/ansi/ansi.h
 
-/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/ansi.h
+/home/kanan/Desktop/GameOfLife-master/ansi/ansi.h
 stdio.h
 -
 stdlib.h

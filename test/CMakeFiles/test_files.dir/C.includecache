@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/test.c
+CUnit/CUnit.h
+-
+CUnit/Basic.h
+-
+stdio.h
+-
+circular.h
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/circular.h
+clipped.h
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/clipped.h
+

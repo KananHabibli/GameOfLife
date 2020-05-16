@@ -29,7 +29,7 @@ int** nextGeneration(int** grid, int M, int N)
                     else aliveNeighbours += grid[l + i][m + j];
                 }
             }
-            // printf("%d\n", aliveNeighbours);
+
             // Excluding the cell itself 
             aliveNeighbours -= grid[l][m];
 

@@ -68,10 +68,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/kanan/Desktop/Development Techniques/GameOfLife"
+CMAKE_SOURCE_DIR = /home/kanan/Desktop/GameOfLife-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/kanan/Desktop/Development Techniques/GameOfLife"
+CMAKE_BINARY_DIR = /home/kanan/Desktop/GameOfLife-master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,14 +146,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles" "/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/CMakeFiles/progress.marks"
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles" 0
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/GameOfLife-master/CMakeFiles /home/kanan/Desktop/GameOfLife-master/ansi/CMakeFiles/progress.marks
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/GameOfLife-master/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/clean
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/preinstall
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/preinstall
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 ansi/CMakeFiles/ansi.dir/rule:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/CMakeFiles/ansi.dir/rule
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/CMakeFiles/ansi.dir/rule
 .PHONY : ansi/CMakeFiles/ansi.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ ansi: ansi/CMakeFiles/ansi.dir/rule
 
 # fast build rule for target.
 ansi/fast:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/build
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/build
 .PHONY : ansi/fast
 
 ansi.o: ansi.c.o
@@ -197,7 +197,7 @@ ansi.o: ansi.c.o
 
 # target to build an object file
 ansi.c.o:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/ansi.c.o
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/ansi.c.o
 .PHONY : ansi.c.o
 
 ansi.i: ansi.c.i
@@ -206,7 +206,7 @@ ansi.i: ansi.c.i
 
 # target to preprocess a source file
 ansi.c.i:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/ansi.c.i
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/ansi.c.i
 .PHONY : ansi.c.i
 
 ansi.s: ansi.c.s
@@ -215,7 +215,7 @@ ansi.s: ansi.c.s
 
 # target to generate assembly for a file
 ansi.c.s:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/ansi.c.s
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/ansi.c.s
 .PHONY : ansi.c.s
 
 # Help Target
@@ -245,6 +245,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -27,7 +27,7 @@ int** nextGenerationcircular(int** grid, int M, int N)
 						aliveNeighbours += grid[(l + i + N)%(N)][(m + j + M )%(M)];
                 }
             }
-            // printf("%d\n", aliveNeighbours);
+
             // Excluding the cell itself 
             aliveNeighbours -= grid[l][m];
 

@@ -1,0 +1,1 @@
+/usr/bin/cc   --coverage CMakeFiles/test_files.dir/test.c.o  -o test_files  libfunctions.a -lcunit -lm -lgcov 

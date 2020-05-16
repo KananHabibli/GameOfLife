@@ -1,0 +1,8 @@
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/CMakeFiles/install/local.dir
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/CMakeFiles/install/strip.dir
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/CMakeFiles/test_files.dir
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/CMakeFiles/rebuild_cache.dir
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/CMakeFiles/functions.dir
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/CMakeFiles/edit_cache.dir
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/CMakeFiles/list_install_components.dir
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/test/CMakeFiles/install.dir

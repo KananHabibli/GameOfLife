@@ -68,10 +68,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/kanan/Desktop/Development Techniques/GameOfLife"
+CMAKE_SOURCE_DIR = /home/kanan/Desktop/GameOfLife-master
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/kanan/Desktop/Development Techniques/GameOfLife"
+CMAKE_BINARY_DIR = /home/kanan/Desktop/GameOfLife-master
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -146,14 +146,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles" "/home/kanan/Desktop/Development Techniques/GameOfLife/circular/CMakeFiles/progress.marks"
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/kanan/Desktop/Development Techniques/GameOfLife/CMakeFiles" 0
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/GameOfLife-master/CMakeFiles /home/kanan/Desktop/GameOfLife-master/circular/CMakeFiles/progress.marks
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/GameOfLife-master/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/clean
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/preinstall
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/preinstall
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 circular/CMakeFiles/circular.dir/rule:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/CMakeFiles/circular.dir/rule
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/CMakeFiles/circular.dir/rule
 .PHONY : circular/CMakeFiles/circular.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ circular: circular/CMakeFiles/circular.dir/rule
 
 # fast build rule for target.
 circular/fast:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/build
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/build
 .PHONY : circular/fast
 
 circular.o: circular.c.o
@@ -197,7 +197,7 @@ circular.o: circular.c.o
 
 # target to build an object file
 circular.c.o:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/circular.c.o
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/circular.c.o
 .PHONY : circular.c.o
 
 circular.i: circular.c.i
@@ -206,7 +206,7 @@ circular.i: circular.c.i
 
 # target to preprocess a source file
 circular.c.i:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/circular.c.i
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/circular.c.i
 .PHONY : circular.c.i
 
 circular.s: circular.c.s
@@ -215,7 +215,7 @@ circular.s: circular.c.s
 
 # target to generate assembly for a file
 circular.c.s:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/circular.c.s
+	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/circular.c.s
 .PHONY : circular.c.s
 
 # Help Target
@@ -245,6 +245,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/kanan/Desktop/Development Techniques/GameOfLife" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

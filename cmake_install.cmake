@@ -1,4 +1,4 @@
-# Install script for directory: /home/kanan/Desktop/Development Techniques/GameOfLife
+# Install script for directory: /home/kanan/Desktop/GameOfLife-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kanan/Desktop/Development Techniques/GameOfLife/ansi/cmake_install.cmake")
+  include("/home/kanan/Desktop/GameOfLife-master/ansi/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kanan/Desktop/Development Techniques/GameOfLife/clipped/cmake_install.cmake")
+  include("/home/kanan/Desktop/GameOfLife-master/clipped/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kanan/Desktop/Development Techniques/GameOfLife/circular/cmake_install.cmake")
+  include("/home/kanan/Desktop/GameOfLife-master/circular/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/kanan/Desktop/Development Techniques/GameOfLife/sdl/cmake_install.cmake")
+  include("/home/kanan/Desktop/GameOfLife-master/sdl/cmake_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -64,7 +64,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/game_of_life"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kanan/Desktop/Development Techniques/GameOfLife/game_of_life")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/home/kanan/Desktop/GameOfLife-master/game_of_life")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/game_of_life" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/game_of_life")
     file(RPATH_CHANGE
@@ -85,5 +85,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kanan/Desktop/Development Techniques/GameOfLife/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kanan/Desktop/GameOfLife-master/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

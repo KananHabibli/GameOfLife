@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kanan/Desktop/Development Techniques/GameOfLife/circular/circular.c
+/home/kanan/Desktop/GameOfLife-master/circular/circular.c
 circular.h
-/home/kanan/Desktop/Development Techniques/GameOfLife/circular/circular.h
+/home/kanan/Desktop/GameOfLife-master/circular/circular.h
 
-/home/kanan/Desktop/Development Techniques/GameOfLife/circular/circular.h
+/home/kanan/Desktop/GameOfLife-master/circular/circular.h
 stdio.h
 -
 stdlib.h

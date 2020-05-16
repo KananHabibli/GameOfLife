@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/circular/circular.c
+circular.h
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/circular/circular.h
+
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/circular/circular.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/clipped/clipped.c
+clipped.h
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/clipped/clipped.h
+
+/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/clipped/clipped.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+

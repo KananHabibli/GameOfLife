@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfunctions.a  "CMakeFiles/functions.dir/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/clipped/clipped.c.o" "CMakeFiles/functions.dir/home/hen1ai/Downloads/GameOfLife-master(1)/GameOfLife-master/circular/circular.c.o"
+/usr/bin/ranlib libfunctions.a
