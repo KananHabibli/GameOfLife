@@ -1,4 +1,3 @@
-
 #include "clipped.h"
 #include "circular.h"
 #include "ansi.h"
