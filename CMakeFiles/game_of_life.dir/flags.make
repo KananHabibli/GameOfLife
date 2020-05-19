@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DUSING_LIB=""
 
-C_INCLUDES = -I/home/hen1ai/Muho1/ansi -I/home/hen1ai/Muho1/clipped -I/home/hen1ai/Muho1/circular -I/home/hen1ai/Muho1/sdl -isystem /usr/local/include/SDL2 
+C_INCLUDES = -I/home/kanan/Desktop/test/GameOfLife/ansi -I/home/kanan/Desktop/test/GameOfLife/clipped -I/home/kanan/Desktop/test/GameOfLife/circular -I/home/kanan/Desktop/test/GameOfLife/sdl -isystem /usr/local/include/SDL2 
 

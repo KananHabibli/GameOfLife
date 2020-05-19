@@ -184,13 +184,13 @@ if(strcmp(mode,"clippedsdl")==0 || strcmp(mode,"circularsdl")==0)
         }
         draw_sdl(renderer,grid,M,N,k);
         usleep( 100000 );
-        switch (strcmp(mode,"clippedsdl")==0)
+        switch (strcmp(mode,"clippedsdl"))
         {
             /** @brief If user chooses the mode clippedsdl, the program will create the generation using SDL2 in clipped version */
             case 0:
                 grid = nextGeneration(grid, M, N); 
                 break;
-            /** @brief If user chooses the mode circularsdl, the program will create the generation using SDL2 in ciruclar version */
+            /** @brief If user chooses the mode circularsdl, the program will create the generation using SDL2 in circular version */
             default:
                 grid = nextGenerationcircular(grid, M, N); 
                 break;

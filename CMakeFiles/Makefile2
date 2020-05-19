@@ -64,10 +64,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hen1ai/Muho1
+CMAKE_SOURCE_DIR = /home/kanan/Desktop/test/GameOfLife
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hen1ai/Muho1
+CMAKE_BINARY_DIR = /home/kanan/Desktop/test/GameOfLife
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -180,14 +180,14 @@ CMakeFiles/game_of_life.dir/all: circular/CMakeFiles/circular.dir/all
 CMakeFiles/game_of_life.dir/all: sdl/CMakeFiles/sdl.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_of_life.dir/build.make CMakeFiles/game_of_life.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/game_of_life.dir/build.make CMakeFiles/game_of_life.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hen1ai/Muho1/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target game_of_life"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanan/Desktop/test/GameOfLife/CMakeFiles --progress-num=7,8,9,10,11,12 "Built target game_of_life"
 .PHONY : CMakeFiles/game_of_life.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/game_of_life.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 14
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/game_of_life.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 0
 .PHONY : CMakeFiles/game_of_life.dir/rule
 
 # Convenience name for target.
@@ -207,14 +207,14 @@ CMakeFiles/game_of_life.dir/clean:
 ansi/CMakeFiles/ansi.dir/all:
 	$(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/depend
 	$(MAKE) $(MAKESILENT) -f ansi/CMakeFiles/ansi.dir/build.make ansi/CMakeFiles/ansi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hen1ai/Muho1/CMakeFiles --progress-num=1,2 "Built target ansi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanan/Desktop/test/GameOfLife/CMakeFiles --progress-num=1,2 "Built target ansi"
 .PHONY : ansi/CMakeFiles/ansi.dir/all
 
 # Build rule for subdir invocation for target.
 ansi/CMakeFiles/ansi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ansi/CMakeFiles/ansi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 0
 .PHONY : ansi/CMakeFiles/ansi.dir/rule
 
 # Convenience name for target.
@@ -234,14 +234,14 @@ ansi/CMakeFiles/ansi.dir/clean:
 clipped/CMakeFiles/clipped.dir/all:
 	$(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/depend
 	$(MAKE) $(MAKESILENT) -f clipped/CMakeFiles/clipped.dir/build.make clipped/CMakeFiles/clipped.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hen1ai/Muho1/CMakeFiles --progress-num=5,6 "Built target clipped"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanan/Desktop/test/GameOfLife/CMakeFiles --progress-num=5,6 "Built target clipped"
 .PHONY : clipped/CMakeFiles/clipped.dir/all
 
 # Build rule for subdir invocation for target.
 clipped/CMakeFiles/clipped.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clipped/CMakeFiles/clipped.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 0
 .PHONY : clipped/CMakeFiles/clipped.dir/rule
 
 # Convenience name for target.
@@ -261,14 +261,14 @@ clipped/CMakeFiles/clipped.dir/clean:
 circular/CMakeFiles/circular.dir/all:
 	$(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/depend
 	$(MAKE) $(MAKESILENT) -f circular/CMakeFiles/circular.dir/build.make circular/CMakeFiles/circular.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hen1ai/Muho1/CMakeFiles --progress-num=3,4 "Built target circular"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanan/Desktop/test/GameOfLife/CMakeFiles --progress-num=3,4 "Built target circular"
 .PHONY : circular/CMakeFiles/circular.dir/all
 
 # Build rule for subdir invocation for target.
 circular/CMakeFiles/circular.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 circular/CMakeFiles/circular.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 0
 .PHONY : circular/CMakeFiles/circular.dir/rule
 
 # Convenience name for target.
@@ -288,14 +288,14 @@ circular/CMakeFiles/circular.dir/clean:
 sdl/CMakeFiles/sdl.dir/all:
 	$(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/depend
 	$(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hen1ai/Muho1/CMakeFiles --progress-num=13,14 "Built target sdl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kanan/Desktop/test/GameOfLife/CMakeFiles --progress-num=13,14 "Built target sdl"
 .PHONY : sdl/CMakeFiles/sdl.dir/all
 
 # Build rule for subdir invocation for target.
 sdl/CMakeFiles/sdl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/CMakeFiles/sdl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/test/GameOfLife/CMakeFiles 0
 .PHONY : sdl/CMakeFiles/sdl.dir/rule
 
 # Convenience name for target.
