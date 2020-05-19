@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17.2)
+cmake_minimum_required(VERSION 3.17.0)
 project(game_of_life LANGUAGES C)
 add_subdirectory (ansi)
 add_subdirectory (clipped)

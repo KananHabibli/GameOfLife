@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.17.2)
+cmake_minimum_required(VERSION 3.17.0)
 
 project(sdl LANGUAGES C)
 find_package(SDL2 CONFIG REQUIRED )
