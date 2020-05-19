@@ -68,10 +68,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kanan/Desktop/GameOfLife-master
+CMAKE_SOURCE_DIR = /home/hen1ai/Muho1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kanan/Desktop/GameOfLife-master
+CMAKE_BINARY_DIR = /home/hen1ai/Muho1
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -90,8 +90,8 @@ install/strip/fast: preinstall/fast
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/local/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -146,14 +146,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/GameOfLife-master/CMakeFiles /home/kanan/Desktop/GameOfLife-master/sdl/CMakeFiles/progress.marks
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/kanan/Desktop/GameOfLife-master/CMakeFiles 0
+	cd /home/hen1ai/Muho1 && $(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles /home/hen1ai/Muho1/sdl/CMakeFiles/progress.marks
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hen1ai/Muho1/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/clean
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/clean
 .PHONY : clean
 
 # The main clean target
@@ -163,22 +163,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/preinstall
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/preinstall
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hen1ai/Muho1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 sdl/CMakeFiles/sdl.dir/rule:
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/CMakeFiles/sdl.dir/rule
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sdl/CMakeFiles/sdl.dir/rule
 .PHONY : sdl/CMakeFiles/sdl.dir/rule
 
 # Convenience name for target.
@@ -188,7 +188,7 @@ sdl: sdl/CMakeFiles/sdl.dir/rule
 
 # fast build rule for target.
 sdl/fast:
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/build
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/build
 .PHONY : sdl/fast
 
 sdl.o: sdl.c.o
@@ -197,7 +197,7 @@ sdl.o: sdl.c.o
 
 # target to build an object file
 sdl.c.o:
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/sdl.c.o
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/sdl.c.o
 .PHONY : sdl.c.o
 
 sdl.i: sdl.c.i
@@ -206,7 +206,7 @@ sdl.i: sdl.c.i
 
 # target to preprocess a source file
 sdl.c.i:
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/sdl.c.i
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/sdl.c.i
 .PHONY : sdl.c.i
 
 sdl.s: sdl.c.s
@@ -215,7 +215,7 @@ sdl.s: sdl.c.s
 
 # target to generate assembly for a file
 sdl.c.s:
-	cd /home/kanan/Desktop/GameOfLife-master && $(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/sdl.c.s
+	cd /home/hen1ai/Muho1 && $(MAKE) $(MAKESILENT) -f sdl/CMakeFiles/sdl.dir/build.make sdl/CMakeFiles/sdl.dir/sdl.c.s
 .PHONY : sdl.c.s
 
 # Help Target
@@ -245,6 +245,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/kanan/Desktop/GameOfLife-master && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hen1ai/Muho1 && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

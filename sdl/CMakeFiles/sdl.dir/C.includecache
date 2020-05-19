@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kanan/Desktop/GameOfLife-master/sdl/sdl.c
+/home/hen1ai/Muho1/sdl/sdl.c
 sdl.h
-/home/kanan/Desktop/GameOfLife-master/sdl/sdl.h
+/home/hen1ai/Muho1/sdl/sdl.h
 
-/home/kanan/Desktop/GameOfLife-master/sdl/sdl.h
+/home/hen1ai/Muho1/sdl/sdl.h
 windows.h
 -
 stdio.h

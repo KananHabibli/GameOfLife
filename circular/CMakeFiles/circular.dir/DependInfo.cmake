@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/kanan/Desktop/GameOfLife-master/circular/circular.c" "/home/kanan/Desktop/GameOfLife-master/circular/CMakeFiles/circular.dir/circular.c.o"
+  "/home/hen1ai/Muho1/circular/circular.c" "/home/hen1ai/Muho1/circular/CMakeFiles/circular.dir/circular.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

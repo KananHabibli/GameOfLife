@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = -DUSING_LIB=""
 
-C_INCLUDES = -I/home/kanan/Desktop/GameOfLife-master/clipped 
+C_INCLUDES = -I/home/hen1ai/Muho1/clipped 
 

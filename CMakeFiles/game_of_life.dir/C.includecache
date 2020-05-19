@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kanan/Desktop/GameOfLife-master/ansi/ansi.c
+/home/hen1ai/Muho1/ansi/ansi.c
 ansi.h
-/home/kanan/Desktop/GameOfLife-master/ansi/ansi.h
+/home/hen1ai/Muho1/ansi/ansi.h
 
-/home/kanan/Desktop/GameOfLife-master/ansi/ansi.h
+/home/hen1ai/Muho1/ansi/ansi.h
 stdio.h
 -
 stdlib.h
@@ -18,11 +18,11 @@ stdlib.h
 unistd.h
 -
 
-/home/kanan/Desktop/GameOfLife-master/circular/circular.c
+/home/hen1ai/Muho1/circular/circular.c
 circular.h
-/home/kanan/Desktop/GameOfLife-master/circular/circular.h
+/home/hen1ai/Muho1/circular/circular.h
 
-/home/kanan/Desktop/GameOfLife-master/circular/circular.h
+/home/hen1ai/Muho1/circular/circular.h
 stdio.h
 -
 stdlib.h
@@ -30,11 +30,11 @@ stdlib.h
 unistd.h
 -
 
-/home/kanan/Desktop/GameOfLife-master/clipped/clipped.c
+/home/hen1ai/Muho1/clipped/clipped.c
 clipped.h
-/home/kanan/Desktop/GameOfLife-master/clipped/clipped.h
+/home/hen1ai/Muho1/clipped/clipped.h
 
-/home/kanan/Desktop/GameOfLife-master/clipped/clipped.h
+/home/hen1ai/Muho1/clipped/clipped.h
 stdio.h
 -
 stdlib.h
@@ -42,23 +42,23 @@ stdlib.h
 unistd.h
 -
 
-/home/kanan/Desktop/GameOfLife-master/main.c
+/home/hen1ai/Muho1/main.c
 clipped.h
-/home/kanan/Desktop/GameOfLife-master/clipped.h
+/home/hen1ai/Muho1/clipped.h
 circular.h
-/home/kanan/Desktop/GameOfLife-master/circular.h
+/home/hen1ai/Muho1/circular.h
 ansi.h
-/home/kanan/Desktop/GameOfLife-master/ansi.h
+/home/hen1ai/Muho1/ansi.h
 sdl.h
-/home/kanan/Desktop/GameOfLife-master/sdl.h
+/home/hen1ai/Muho1/sdl.h
 math.h
-/home/kanan/Desktop/GameOfLife-master/math.h
+/home/hen1ai/Muho1/math.h
 
-/home/kanan/Desktop/GameOfLife-master/sdl/sdl.c
+/home/hen1ai/Muho1/sdl/sdl.c
 sdl.h
-/home/kanan/Desktop/GameOfLife-master/sdl/sdl.h
+/home/hen1ai/Muho1/sdl/sdl.h
 
-/home/kanan/Desktop/GameOfLife-master/sdl/sdl.h
+/home/hen1ai/Muho1/sdl/sdl.h
 windows.h
 -
 stdio.h

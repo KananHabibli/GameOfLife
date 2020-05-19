@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/kanan/Desktop/GameOfLife-master/clipped/clipped.c
+/home/hen1ai/Muho1/clipped/clipped.c
 clipped.h
-/home/kanan/Desktop/GameOfLife-master/clipped/clipped.h
+/home/hen1ai/Muho1/clipped/clipped.h
 
-/home/kanan/Desktop/GameOfLife-master/clipped/clipped.h
+/home/hen1ai/Muho1/clipped/clipped.h
 stdio.h
 -
 stdlib.h
