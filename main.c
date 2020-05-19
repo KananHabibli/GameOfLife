@@ -46,7 +46,7 @@ int main()
         exit_pause--;
         if (exit_pause==0)
         {
-            printf("\n\n*****   RUN AGAIN   *****\n", );
+            printf("\n\n*****   RUN AGAIN   *****\n");
             return 0;
         }
     }
