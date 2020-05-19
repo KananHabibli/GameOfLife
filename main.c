@@ -1,9 +1,10 @@
+
 #include "clipped.h"
 #include "circular.h"
 #include "ansi.h"
 #include "sdl.h"
 #include "math.h"
-void main() 
+int main() 
 { 
         printf("#########################################################################################################\n");
         printf("#################################      WELCOME TO THE GAME OF LIFE      #################################\n");
@@ -12,20 +13,20 @@ void main()
         printf("*********************************************************************************************************\n");
         printf("*IF YOU WANT CLIPPED MODE WRITE \"clippedansi\" and IF YOU WANT CIRCULAR MODE WRITE \"circularansi\" in ANSI*\n");
         printf("*********************************************************************************************************\n");
-        printf("*IF YOU WANT CLIPPED MODE WRITE \"clippedsdl\" and IF YOU WANT CIRCULAR MODE WRITE \"clippedsdl\" in SDL*\n");
+        printf("*IF YOU WANT CLIPPED MODE WRITE \"clippedsdl\" and IF YOU WANT CIRCULAR MODE WRITE \"circularsdl\" in SDL*\n");
         printf("********************************************************************************************************************************************\n");
         printf("*IF YOU WANT CLIPPED MODE WRITE \"clippedsdlcustom\" and IF YOU WANT CIRCULAR MODE WRITE \"circularsdlcustom\" in SDL WITH CUSTOM CONFIGURATION*\n");
         printf("********************************************************************************************************************************************\n\n");
         printf("\n\n**************    YOUR INPUT    **************\n");
-    char* mode;
-    int pause = 5;
 
+
+    char* mode;
     mode = calloc(1024, sizeof(char));
     scanf("%s",mode);
         printf("**********************************************\n");
-
-    /** @brief First, the program will get the mode input to create required mode of the game  */
-    /** @warning Acceptable mode inputs are: clippedansi, circularansi, clippedsdl, clippedsdl, clippedsdlcustom or circularsdlcustom*/
+    int pause = 5;
+    /** @brief Program will get the mode input to create required mode of the game  */
+    /** @warning Acceptable mode inputs are: clippedansi, circularansi, clippedsdl, clippedsdl, clippedsdlcustom or the circularsdlcustom */
     while((strcmp(mode,"clippedansi")!=0 && strcmp(mode,"circularansi")!=0 && strcmp(mode,"clippedsdl")!=0 && strcmp(mode,"circularsdl")!=0) && strcmp(mode,"clippedsdlcustom")!=0 && strcmp(mode,"circularsdlcustom")!=0 || strlen(mode)>20)
     {
         printf("\n\n\n#############################\n");
@@ -35,7 +36,7 @@ void main()
         printf("*********************************************************************************************************\n");
         printf("*IF YOU WANT CLIPPED MODE WRITE \"clippedansi\" and IF YOU WANT CIRCULAR MODE WRITE \"circularansi\" in ANSI*\n");
         printf("*********************************************************************************************************\n");
-        printf("*IF YOU WANT CLIPPED MODE WRITE \"clippedsdl\" and IF YOU WANT CIRCULAR MODE WRITE \"clippedsdl\" in SDL*\n");
+        printf("*IF YOU WANT CLIPPED MODE WRITE \"clippedsdl\" and IF YOU WANT CIRCULAR MODE WRITE \"circularsdl\" in SDL*\n");
         printf("********************************************************************************************************************************************\n");
         printf("*IF YOU WANT CLIPPED MODE WRITE \"clippedsdlcustom\" and IF YOU WANT CIRCULAR MODE WRITE \"circularsdlcustom\" in SDL WITH CUSTOM CONFIGURATION*\n");
         printf("********************************************************************************************************************************************\n\n");
@@ -43,6 +44,7 @@ void main()
         scanf("%s",mode);
         printf("**********************************************\n");
     }
+    /** @brief The size of the grid was taken as 40  */
     int M = 40, N = 40; 
     int **grid;
     grid = malloc(sizeof(int*) * M);
@@ -130,6 +132,7 @@ void main()
         usleep( 100000 );
         print_generation(grid,M,N);
     }
+    return 0;
 }  
 
 
@@ -141,7 +144,10 @@ int k=1;
 
 /** @brief If user chooses the mode clippedsdl or circularsdl, the program will create the generation using SDL2 in circular version or clipped version*/
 if(strcmp(mode,"clippedsdl")==0 || strcmp(mode,"circularsdl")==0)
-{
+{  
+    printf("\n*******************************************************\n");
+    printf("*******    DO NOT CHANGE THE WINDOWS POSITION   *******\n" );
+    printf("*******************************************************\n\n\n");
     while(pause>0)
         {
             printf("*******************************************************\n");
@@ -192,27 +198,43 @@ if(strcmp(mode,"clippedsdl")==0 || strcmp(mode,"circularsdl")==0)
         SDL_RenderPresent(renderer);
     }
     SDL_Quit();
+    return 0;
 }
 
+    
+    printf("\n\n*********    ENTER THE RESOLUTION OF THE WINDOW    **************\n");
+    printf("SIZE OF THE SIDE - ");
+    scanf("%d",&M);
+    printf("*****************************************************************\n\n");
+    M = (int)floor(M/k);
+    free(grid);
+    grid = (int **)malloc(sizeof(int*) * M);
+     
+    for(int i = 0; i < M; i++) {
+        grid[i] = (int *)malloc(sizeof(int) * M);
+    }
 
     for (int i = 0; i < M; i++)
     {
-        for (int j = 0; j < N; j++)
+        for (int j = 0; j < M; j++)
         {
             grid[i][j]=0;
         }
     }
+
 /** @brief If user chooses the mode clippedsdlcustom or circularsdlcustom, the program will create the generation using SDL2 in custom version */
 if(strcmp(mode,"clippedsdlcustom")==0 || strcmp(mode,"circularsdlcustom")==0)
 {
 
-        printf("***************************************\n");
-        printf("PRESS MOUSE LEFT BUTTON TO DRAW A CELL*\n");
-        printf("********************************************\n");
-        printf("*PRESS MOUSE RIGHT BUTTON TO ERASE THE CELL*\n");
-        printf("************************************************************************************************\n");
-        printf("*AFTER FINISING THE DRAW, PRESS MOUSE MIDDLE BUTTON OR CLICK EXIT BUTTON TO BEGIN THE NEXT LIFE*\n");
-        printf("************************************************************************************************\n\n");
+    printf("****************************************\n");
+    printf("*PRESS MOUSE LEFT BUTTON TO DRAW A CELL*\n");
+    printf("********************************************\n");
+    printf("*PRESS MOUSE RIGHT BUTTON TO ERASE THE CELL*\n");
+    printf("************************************************************************************************\n");
+    printf("*AFTER FINISING THE DRAW, PRESS MOUSE MIDDLE BUTTON OR CLICK EXIT BUTTON TO BEGIN THE NEXT LIFE*\n");
+    printf("************************************************************************************************\n\n");
+
+
         while(pause>0)
         {
             printf("*******************************************************\n");
@@ -229,7 +251,7 @@ if(strcmp(mode,"clippedsdlcustom")==0 || strcmp(mode,"circularsdlcustom")==0)
 
     SDL_Window* window = SDL_CreateWindow("Life",
                                           SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
-                                          k*M, k*N, SDL_WINDOW_RESIZABLE|SDL_WINDOW_SHOWN);
+                                          k*M, k*M, SDL_WINDOW_RESIZABLE|SDL_WINDOW_SHOWN);
     SDL_Renderer* renderer = SDL_CreateRenderer(window, -1,SDL_RENDERER_ACCELERATED|SDL_RENDERER_PRESENTVSYNC);
     assert (renderer != NULL);
 
@@ -259,7 +281,7 @@ if(strcmp(mode,"clippedsdlcustom")==0 || strcmp(mode,"circularsdlcustom")==0)
                     quit = true;
             break;
         }
-        draw_sdl(renderer,grid,M,N,k);
+        draw_sdl(renderer,grid,M,M,k);
         SDL_RenderPresent(renderer);
 
     }
@@ -285,11 +307,11 @@ if(strcmp(mode,"clippedsdlcustom")==0 || strcmp(mode,"circularsdlcustom")==0)
         {
         /** @brief If user chooses the mode clippedsdlcustom, the program will create the generation using SDL2 in clipped version with custom configuration */
         case 0:
-            grid = nextGeneration(grid, M, N); 
+            grid = nextGeneration(grid, M, M); 
             break;
         /** @brief If user chooses the mode circularsdlcustom, the program will create the generation using SDL2 in circular version with custom configuration */
         default:
-            grid = nextGenerationcircular(grid, M, N); 
+            grid = nextGenerationcircular(grid, M, M); 
             break;
         }
         SDL_RenderPresent(renderer);
@@ -297,7 +319,7 @@ if(strcmp(mode,"clippedsdlcustom")==0 || strcmp(mode,"circularsdlcustom")==0)
     }
     SDL_Quit();
 }
-
+return 0;
 } 
 
 
