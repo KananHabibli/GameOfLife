@@ -1,0 +1,39 @@
+
+name: C/C++ CI
+
+on:
+  pull_request:
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    name: Running Unit Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Download dependecies_test
+        run: |
+          sudo apt update && sudo apt install libcunit1-dev gcovr && sudo apt install libsdl2-dev && sudo apt-get update && sudo apt-get install build-essential
+          hg clone https://hg.libsdl.org/SDL SDL
+          cd SDL
+          mkdir build
+          cd build
+          ../configure
+          make
+          sudo make install
+      - name: Download dependecies_main
+        run: sudo apt install libsdl2-dev libsdl2-2.0-0 -y;
+      - name: Run unitTests
+        run: |
+          cd test
+          cmake ./
+          make
+          ./test_files
+      - name: Main
+        run: |
+          cmake ./
+          make
+          ./game_of_life
