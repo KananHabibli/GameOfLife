@@ -24,6 +24,7 @@ int main()
     scanf("%s",mode);
         printf("**********************************************\n");
     int pause = 5;
+    int exit_pause = 5;
     /** @brief Program will get the mode input to create required mode of the game  */
     /** @warning Acceptable mode inputs are: clippedansi, circularansi, clippedsdl, clippedsdl, clippedsdlcustom or the circularsdlcustom */
     while((strcmp(mode,"clippedansi")!=0 && strcmp(mode,"circularansi")!=0 && strcmp(mode,"clippedsdl")!=0 && strcmp(mode,"circularsdl")!=0) && strcmp(mode,"clippedsdlcustom")!=0 && strcmp(mode,"circularsdlcustom")!=0 || strlen(mode)>20)
@@ -42,6 +43,12 @@ int main()
         printf("\n\n**************    YOUR INPUT    **************\n");
         scanf("%s",mode);
         printf("**********************************************\n");
+        exit_pause--;
+        if (exit_pause==0)
+        {
+            printf("\n\n*****   RUN AGAIN   *****\n", );
+            return 0;
+        }
     }
     /** @brief The size of the grid was taken as 40  */
     int M = 40, N = 40; 
